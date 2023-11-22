@@ -1,10 +1,4 @@
-## 说明
-协议项目，用来对外提供各种隐私协议及条款。
-
-## nginx-privacy
-为隐私协议及条款容器
-
-## nginx-reloader
+## config-reloader-sidecar
 为热加载sidecar容器
 ```yaml
 kind: Deployment

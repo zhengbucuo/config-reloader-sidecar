@@ -8,6 +8,7 @@ spec:
   template:
     ...
     spec:
+      shareProcessNamespace: true
       volumes:
         - name: nginx-config
           configMap:

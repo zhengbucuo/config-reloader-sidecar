@@ -1,5 +1,5 @@
 ## config-reloader-sidecar
-为热加载sidecar容器
+为热加载conifg map 的sidecar容器，监测配置变更，使用给定的信号重新加载指定的进程。以NGINX为例子
 ```yaml
 kind: Deployment
 apiVersion: apps/v1
